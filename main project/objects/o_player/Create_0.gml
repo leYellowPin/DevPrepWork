@@ -14,3 +14,11 @@ input = {
 }
 
 movement_type = 1; // 0 - normal 4 direction movement; 1 - normalized movement
+
+// set camera
+
+if !layer_exists("System") layer_create(0, "System");
+
+with instance_create_layer(x, y, "System", o_camera){
+	view_target = other.id;	
+}
