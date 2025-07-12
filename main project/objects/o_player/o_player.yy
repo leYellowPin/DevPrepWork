@@ -11,8 +11,8 @@
   "name":"o_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game Objects",
-    "path":"folders/Game Objects.yy",
+    "name":"Main game",
+    "path":"folders/Game Objects/Main game.yy",
   },
   "parentObjectId":null,
   "persistent":false,
