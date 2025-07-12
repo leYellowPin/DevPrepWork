@@ -23,8 +23,8 @@
   ],
   "name":"rm_home",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Main game",
+    "path":"folders/Rooms/Main game.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
