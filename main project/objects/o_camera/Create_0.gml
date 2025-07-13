@@ -18,6 +18,9 @@ view_y = global.starty;
 Zsmooth = .125; // more = smoother
 Rsmooth = .01; // more = smoother
 
+view_set_wport(view_camera[0], 1920);
+view_set_hport(view_camera[0], 1080);
+
 
 //every global variables related to viewport
 

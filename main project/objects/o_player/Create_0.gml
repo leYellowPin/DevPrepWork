@@ -3,7 +3,7 @@
 hsp = 0;
 vsp = 0;
 move_dir = 0;
-move_spd = 5;
+move_spd = 4;
 
 input = {
 	left: keyboard_check(vk_left) || keyboard_check(ord("A")),

@@ -14,23 +14,30 @@ if instance_exists(o_ball) {
 			var _diry1 = lengthdir_y(room_height/2+_radius, point_direction(room_width/2, room_height/2, _x, _y));
 			var _diry2 = lengthdir_y(room_height/2-_radius, point_direction(room_width/2, room_height/2, _x, _y));
 			
-			if (_x > _dirx1) + (_x < _dirx2) > 0 {
-				other.dir = point_direction(room_width/2, room_height/2, _x, _y);
+			if ((_x > _dirx1) + (_x < _dirx2)) != 0 {
+				other.dir = point_direction(room_width/2, room_height/2, _x, _y) + other.rng;
 				break;
 			} 
-			if (_y > _diry1) + (_y < _diry2) > 0 {
-				other.dir = point_direction(room_width/2, room_height/2, _x, _y);
+			if ((_y > _diry1) + (_y < _diry2)) != 0 {
+				other.dir = point_direction(room_width/2, room_height/2, _x, _y) + other.rng;
 				break;
 			}
 		}
 	}
-	if image_angle < dir{
+	
+	if (dir+1 >= 360) || (dir-1 <= -360) {
+		dir = 0;	
+	}
+	
+	if angle_difference(dir, image_angle) > 0{
 		image_angle += turn_spd;
 	}
-	if image_angle > dir{
+	if angle_difference(dir, image_angle) < 0{
 		image_angle -= turn_spd;
 	}
 }
+
+draw_angle = lerp(draw_angle, image_angle, .25);
 
 x = xstart+lengthdir_x(radius, image_angle);
 y = ystart+lengthdir_y(radius, image_angle);
