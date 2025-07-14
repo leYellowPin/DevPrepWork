@@ -23,7 +23,7 @@ spawn_obstacle = function(_layer)
 	
 		if (irandom_range(1,9) == 1)
 		{
-			y -= 105;
+			y -= 115;
 			image_angle = 180;
 		}
 	

@@ -3,6 +3,8 @@ var _random_offset;
 spawn_timer --;
 if (alt_generation) alt_spawn_timer --;
 
+game_score ++;
+
 if (spawn_timer == 0)
 {
 
@@ -15,7 +17,7 @@ if (spawn_timer == 0)
 	// spawn orb
 	var _r  =irandom_range(1,20)
 	show_debug_message(_r)
-	if (_r == 1)
+	if (_r == 1 && !instance_exists(o_layer_change_orb))
 	{
 		instance_create_layer(room_width + 20, layer_ground[current_layer] - 32, layer, o_layer_change_orb);
 		alt_generation = false

@@ -38,7 +38,8 @@ if (_col_orb)
 	
 	invincible_frame = o_dino_game_controller.GAMESPEED;
 	input_buffer = 0;
-	o_dino_game_controller.alt_generation = true
+	o_dino_game_controller.alt_generation = true;
+	o_dino_game_controller.game_score += 2500;
 	
 	with (_col_orb) instance_destroy();
 }

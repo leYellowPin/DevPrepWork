@@ -36,6 +36,7 @@
   },
   "name":"chrome dino thingy",
   "resources":[
+    {"id":{"name":"ft_debug","path":"fonts/ft_debug/ft_debug.yy",},},
     {"id":{"name":"o_dino_game_controller","path":"objects/o_dino_game_controller/o_dino_game_controller.yy",},},
     {"id":{"name":"o_dino_obstacle","path":"objects/o_dino_obstacle/o_dino_obstacle.yy",},},
     {"id":{"name":"o_dino_player","path":"objects/o_dino_player/o_dino_player.yy",},},
