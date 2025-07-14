@@ -1,1 +1,0 @@
-spd = 3 + o_dino_game_controller.obstacle_spd_increase;

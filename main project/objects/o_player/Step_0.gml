@@ -25,3 +25,5 @@ switch(movement_type){
 }
 
 move_and_collide(hsp, vsp, o_solid, 4, 0, 0, move_spd, move_spd);
+
+//show_debug_message(_dark_touched);

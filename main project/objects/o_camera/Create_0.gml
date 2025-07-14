@@ -2,7 +2,7 @@
 smooth = 12;
 
 view_target = o_camera;
-view_border = 0;
+view_border = 1;
 
 viewZoomW = 1;
 viewZoomH = 1;
@@ -35,3 +35,7 @@ global.view_offsetY = 0;
 view_width = global.view_zoomX*global.resolutionX;
 view_height = global.view_zoomY*global.resolutionY;
 view_angle = 0;
+
+for (var i = 0; i < instance_number(o_dark); ++i;){
+	global.darkobjlist[i] = instance_find(o_dark,i);
+}

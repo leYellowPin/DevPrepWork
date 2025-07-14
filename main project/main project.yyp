@@ -41,10 +41,14 @@
   "name":"main project",
   "resources":[
     {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},},
+    {"id":{"name":"o_dark","path":"objects/o_dark/o_dark.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},},
+    {"id":{"name":"o_warp","path":"objects/o_warp/o_warp.yy",},},
+    {"id":{"name":"rm_city","path":"rooms/rm_city/rm_city.yy",},},
     {"id":{"name":"rm_home","path":"rooms/rm_home/rm_home.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
+    {"id":{"name":"s_dark","path":"sprites/s_dark/s_dark.yy",},},
     {"id":{"name":"s_player_hb","path":"sprites/s_player_hb/s_player_hb.yy",},},
     {"id":{"name":"s_solid_hb","path":"sprites/s_solid_hb/s_solid_hb.yy",},},
     {"id":{"name":"s_ts01","path":"sprites/s_ts01/s_ts01.yy",},},
@@ -55,6 +59,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_home","path":"rooms/rm_home/rm_home.yy",},},
+    {"roomId":{"name":"rm_city","path":"rooms/rm_city/rm_city.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

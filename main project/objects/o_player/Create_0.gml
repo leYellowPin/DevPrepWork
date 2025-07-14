@@ -1,5 +1,10 @@
 // init
 
+if global.next_xpos != "" && global.next_ypos != "" {
+	x = global.next_xpos;
+	y = global.next_ypos;
+}
+
 hsp = 0;
 vsp = 0;
 move_dir = 0;
@@ -21,4 +26,11 @@ if !layer_exists("System") layer_create(0, "System");
 
 with instance_create_layer(x, y, "System", o_camera){
 	view_target = other.id;	
+}
+
+if global.player_pos[room]._x == noone {
+	global.player_pos[room]._x = x;
+}
+if global.player_pos[room]._y == noone {
+	global.player_pos[room]._y = y;
 }
