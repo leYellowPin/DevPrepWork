@@ -109,7 +109,7 @@
           -2147483648,7,11,10,6,7,8,10,11,-18,-2147483648,7,11,10,6,7,8,10,11,-18,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_01","path":"tilesets/ts_01/ts_01.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tile_floor_grass","depth":300,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_floor_grass","properties":[
-        {"name":"g_TintCol","type":1,"value":"#FF95FF65",},
+        {"name":"g_TintCol","type":1,"value":"#FF65FF98",},
       ],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":60,"SerialiseWidth":60,"TileCompressedData":[
           -4,35,-3,13,3,35,13,13,-7,35,1,13,-8,35,-5,13,-15,35,-2,13,1,36,-11,0,1,35,-3,13,-3,35,-4,13,-3,35,-2,
           13,-9,35,-2,13,-2,35,1,13,-16,35,-2,13,1,36,-11,0,11,35,13,35,35,13,13,35,13,13,35,13,-3,35,1,13,-4,
@@ -160,17 +160,17 @@
     {"$GMREffectLayer":"","%Name":"Effect_1","depth":400,"effectEnabled":true,"effectType":"_filter_underwater","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effect_1","properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.01",},
         {"name":"g_Distort2Speed","type":0,"value":"0.1",},
-        {"name":"g_Distort1Scale","type":0,"value":"2",},
         {"name":"g_Distort1Scale","type":0,"value":"3",},
-        {"name":"g_Distort2Scale","type":0,"value":"2",},
+        {"name":"g_Distort1Scale","type":0,"value":"3",},
+        {"name":"g_Distort2Scale","type":0,"value":"3",},
         {"name":"g_Distort2Scale","type":0,"value":"3",},
         {"name":"g_Distort1Amount","type":0,"value":"11",},
         {"name":"g_Distort2Amount","type":0,"value":"11",},
         {"name":"g_ChromaSpreadAmount","type":0,"value":"0.25",},
-        {"name":"g_CamOffsetScale","type":0,"value":"1",},
+        {"name":"g_CamOffsetScale","type":0,"value":"2",},
         {"name":"g_GlintCol","type":1,"value":"#FF19140C",},
         {"name":"g_TintCol","type":1,"value":"#FFCCB365",},
-        {"name":"g_AddCol","type":1,"value":"#FF3F1D00",},
+        {"name":"g_AddCol","type":1,"value":"#FF4C2F00",},
         {"name":"g_DistortTexture","type":2,"value":"_filter_underwater_noise_sprite",},
       ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tile_water","depth":500,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_water","properties":[
