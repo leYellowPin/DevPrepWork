@@ -6,7 +6,7 @@ function sq_start_Moment()
 	layer_sequence_pause(global.sq_start_id);
 	create_textevent(
 	["You have been granted access to a character of this world. ", 
-	"To control your character, you may use [W][A][S][D] or arrow keys. ",
+	"To control your character, you may use [W A S D] or arrow keys. ",
 	"To interact with other characters, you may use [E]. ",
 	"Your character just get started making his first ever video game. ",
 	"Your objective is to help him with the prep work of making a game ...",

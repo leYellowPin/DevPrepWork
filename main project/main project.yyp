@@ -19,6 +19,7 @@
     {"$GMFolder":"","%Name":"FC_DialogueSystem","folderPath":"folders/Game Objects/FC_DialogueSystem.yy","name":"FC_DialogueSystem","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Main game","folderPath":"folders/Game Objects/Main game.yy","name":"Main game","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ending tags","folderPath":"folders/Game Objects/Main game/Ending tags.yy","name":"Ending tags","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"NPCs","folderPath":"folders/Game Objects/Main game/NPCs.yy","name":"NPCs","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GUI Objects","folderPath":"folders/GUI Objects.yy","name":"GUI Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},

@@ -6,7 +6,7 @@
   "name":"scr_pong",
   "parent":{
     "name":"Objects",
-    "path":"folders/Objects.yy",
+    "path":"folders/Pong/Objects.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

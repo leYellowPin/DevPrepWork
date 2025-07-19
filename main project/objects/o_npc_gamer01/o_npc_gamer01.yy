@@ -11,8 +11,8 @@
   "name":"o_npc_gamer01",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main game",
-    "path":"folders/Game Objects/Main game.yy",
+    "name":"NPCs",
+    "path":"folders/Game Objects/Main game/NPCs.yy",
   },
   "parentObjectId":{
     "name":"par_speaker",
