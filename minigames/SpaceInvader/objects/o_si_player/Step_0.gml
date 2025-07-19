@@ -13,7 +13,7 @@ if (bbox_right > room_width - o_si_game_controller.border)
 }
 
 // shooting
-if (keyboard_check_pressed(vk_space) || keyboard_check(vk_up))
+if (keyboard_check(vk_space) || keyboard_check(vk_up))
 {
 	if (!instance_exists(o_si_player_bullet)) instance_create_layer(x,y,layer,o_si_player_bullet);
 }

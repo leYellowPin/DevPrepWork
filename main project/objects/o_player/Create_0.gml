@@ -28,19 +28,6 @@ with instance_create_layer(x, y, "System", o_camera){
 	view_target = other.id;	
 }
 
-switch(room) {
-	case rm_home:
-		move_spd = 2.5;
-		o_camera.viewZoomW = .75;
-		o_camera.viewZoomH = .75;
-	break;
-	case rm_city:
-		move_spd = 3;
-		o_camera.viewZoomW = 1.25;
-		o_camera.viewZoomH = 1.25;
-	break;
-}
-
 if global.player_pos[room]._x == noone {
 	global.player_pos[room]._x = x;
 }
@@ -58,4 +45,4 @@ myName				= "You";
 myPortraitTalk		= spr_portrait_examplechar_mouth;
 myPortraitTalk_x	= 26;
 myPortraitTalk_y	= 44;
-myPortraitIdle		= spr_portrait_examplechar_idle;
+//myPortraitIdle		= spr_portrait_examplechar_idle;

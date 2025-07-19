@@ -2,7 +2,7 @@
 
 #region TYPE 0: NORMAL
 if(type[page] == 0){
-	if(keyboard_check_pressed(interact_key)){
+	if(keyboard_check_pressed(interact_key) || mouse_check_button_pressed(mb_left)){
 
 		//If we haven't "typed out" all the letters, immediately "type out" all letters (works as a "skip")
 		if(charCount < str_len){

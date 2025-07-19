@@ -1,1 +1,1 @@
-y += 5;
+y += bullet_spd;

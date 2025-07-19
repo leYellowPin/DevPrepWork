@@ -4,8 +4,8 @@ smooth = 12;
 view_target = o_camera;
 view_border = 1;
 
-viewZoomW = 1;
-viewZoomH = 1;
+viewZoomW = .5;
+viewZoomH = .5;
 viewRot = 0;
 
 
@@ -24,8 +24,8 @@ view_set_hport(view_camera[0], 1080);
 
 //every global variables related to viewport
 
-global.view_zoomX = 1;
-global.view_zoomY = 1;
+global.view_zoomX = .5;
+global.view_zoomY = .5;
 
 global.view_offsetX = 0;
 global.view_offsetY = 0;

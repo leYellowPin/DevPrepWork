@@ -10,7 +10,7 @@ myName				= "Blue";
 myPortraitTalk		= spr_portrait_examplechar_mouth;
 myPortraitTalk_x	= 26;
 myPortraitTalk_y	= 44;
-myPortraitIdle		= spr_portrait_examplechar_idle;
+//myPortraitIdle		= spr_portrait_examplechar_idle;
 
 
 //-------OTHER
