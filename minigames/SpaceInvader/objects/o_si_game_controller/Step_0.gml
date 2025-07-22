@@ -26,3 +26,7 @@ if (instance_exists(o_si_enemy))
 		}
 	}
 }
+
+if instance_number(o_si_enemy) == 0 && instance_number(o_si_ufo) == 0 && instance_number(o_si_enemy_bullet) == 0 && instance_number(o_si_player_bullet) == 0 {
+	room_restart();
+}

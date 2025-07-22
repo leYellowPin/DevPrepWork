@@ -41,7 +41,7 @@
   "name":"rm_dino",
   "parent":{
     "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "path":"folders/DinoRunner/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

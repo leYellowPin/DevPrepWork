@@ -3,16 +3,20 @@ event_inherited(); //so it will inherit from par_speaker
 
 //-------DIALOGUE STUFF
 
-myPortrait			= spr_portrait_examplechar;
+myPortrait			= s_ted_p;
 myVoice				= snd_voice1;
 myName				= "Ted";
 
-myPortraitTalk		= spr_portrait_examplechar_mouth;
-myPortraitTalk_x	= 26;
-myPortraitTalk_y	= 44;
+//myPortraitTalk		= spr_portrait_examplechar_mouth;
+//myPortraitTalk_x	= 26;
+//myPortraitTalk_y	= 44;
 //myPortraitIdle		= spr_portrait_examplechar_idle;
 
 textCol = c_aqua;
+
+image_speed = 0;
+anim_frame = 0;
+anim_idle_spd = .5;
 
 
 //-------OTHER

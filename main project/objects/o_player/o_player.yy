@@ -5,7 +5,6 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":82,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_player",
@@ -33,9 +32,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
+    "name":"s_player",
+    "path":"sprites/s_player/s_player.yy",
+  },
+  "spriteMaskId":{
     "name":"s_player_hb",
     "path":"sprites/s_player_hb/s_player_hb.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }

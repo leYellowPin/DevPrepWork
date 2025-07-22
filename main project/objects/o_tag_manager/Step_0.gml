@@ -1,15 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if keyboard_check_pressed(ord("R"))
-	game_restart()
+if msg > 0 {
+	msg -= 1/60;	
+}
 
-if keyboard_check_pressed(vk_shift){
-	result_list[0] = holder1.tag_list_content; // 0: mobile ; 1: pc
-	result_list[1] = holder2.tag_list_content; // 0: platf ; 1: casual ; 2: shooter
-	result_list[2] = holder3.tag_list_content; // 0: easy ; 1: normal ; 2: hard
-	result_list[3] = holder4.tag_list_content; // 0: retro ; 1: pixel art ; 2: doodle
-	result_list[4] = holder5.tag_list_content; // 0: fishing ; 1: weird
+result_list[0] = holder1.tag_list_content; // 0: mobile ; 1: pc
+result_list[1] = holder2.tag_list_content; // 0: platf ; 1: casual ; 2: shooter
+result_list[2] = holder3.tag_list_content; // 0: easy ; 1: normal ; 2: hard
+result_list[3] = holder4.tag_list_content; // 0: retro ; 1: pixel art ; 2: doodle
+result_list[4] = holder5.tag_list_content; // 0: fishing ; 1: weird
+
+if result_list[0] != -1 &&
+   result_list[1] != -1 &&
+   result_list[2] != -1 &&
+   result_list[3] != -1 &&
+   result_list[4] != -1   {
 	
 	// orders
 	// platform genre difficulty art other
@@ -106,5 +112,6 @@ if keyboard_check_pressed(vk_shift){
 	
 	gscore = clamp(gscore, 0, 10);
 	
-	show_message(gscore);
+	global.final_score = gscore;
+	room_goto(rm_end);
 }

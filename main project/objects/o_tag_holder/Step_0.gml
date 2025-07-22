@@ -20,6 +20,7 @@ if (_n <= list_limit) {
 				}
 			}
 		}
+		alarm[1] = 15;
 	}
 }
 ds_list_destroy(_list);

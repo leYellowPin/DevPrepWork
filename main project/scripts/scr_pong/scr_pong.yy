@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_pong",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_pong",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Pong/Objects.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

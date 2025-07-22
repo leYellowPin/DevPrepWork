@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_examplechar",
-    "path":"sprites/spr_examplechar/spr_examplechar.yy",
+    "name":"s_ted",
+    "path":"sprites/s_ted/s_ted.yy",
   },
   "spriteMaskId":null,
   "visible":true,

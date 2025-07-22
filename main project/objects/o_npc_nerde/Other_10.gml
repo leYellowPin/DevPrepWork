@@ -24,7 +24,7 @@ switch(choice_variable){
 		myText[i]		= "Don't call me a nerd! I am not a nerd!";
 		mySpeaker[i]	= id;
 		myEmote[i]      = 4;
-		myEmotion[i]	= 0;
+		myEmotion[i]	= 2;
 		myTextCol[i]    = [1, textCol];
 		
 		//Line 3
@@ -38,7 +38,7 @@ switch(choice_variable){
 		myText[i]		= "Eerrmm, did you know that according to the first rule of this city, harassment by any means are considered an illegal behaviour. Therefore, the sentence may be around from 1 year to 5 years of i am not continuing this";
 		mySpeaker[i]	= id;
 		myEmote[i]      = 4;
-		myEmotion[i]	= 0;
+		myEmotion[i]	= 1;
 		myTextCol[i]    = [1, textCol];
 		
 		//Line 5
@@ -52,7 +52,7 @@ switch(choice_variable){
 		myText[i]		= ". . . what are you looking for then, mr Rude?";
 		mySpeaker[i]	= id;
 		myEmote[i]      = 4;
-		myEmotion[i]	= 0;
+		myEmotion[i]	= 2;
 		myTextCol[i]    = [1, textCol];
 		
 		//Line 7
@@ -137,7 +137,7 @@ switch(choice_variable){
 		myText[i]		= "Don't call me a nerd! I am not a nerd!";
 		mySpeaker[i]	= id;
 		myEmote[i]      = 4;
-		myEmotion[i]	= 0;
+		myEmotion[i]	= 2;
 		myTextCol[i]    = [1, textCol];
 		myScripts[i]    = [global.tdialog[2].scr];
 		
@@ -149,7 +149,7 @@ switch(choice_variable){
 		var i = 0;
 		//Line 0
 		myText[i]		= "Don't call me a nerd! I am not a nerd!";
-		myEmotion[i]	= 0;
+		myEmotion[i]	= 2;
 		mySpeaker[i]	= id;
 		myTextCol[i]	= [1,textCol];
 		

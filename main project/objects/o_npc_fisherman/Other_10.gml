@@ -101,6 +101,13 @@ switch(choice_variable){
 		mySpeaker[i]	= o_player;
 		myEmotion[i]	= 1;
 		
+		//Line 6
+		i++;
+		myText[i]		= "(fishing minigame not finished in time so here's the tag)";
+		mySpeaker[i]	= o_player;
+		myEmotion[i]	= 1;
+		myScripts[i]    = [global.tdialog[5].scr];
+		
 		#endregion
 	break;
 	

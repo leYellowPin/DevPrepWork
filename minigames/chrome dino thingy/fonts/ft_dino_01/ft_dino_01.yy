@@ -120,7 +120,7 @@
   "name":"ft_dino_01",
   "parent":{
     "name":"Fonts",
-    "path":"folders/Fonts.yy",
+    "path":"folders/DinoRunner/Fonts.yy",
   },
   "pointRounding":0,
   "ranges":[
@@ -134,7 +134,10 @@
   "sdfSpread":8,
   "size":20.0,
   "styleName":"Medium",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":"",
   "usesSDF":false,
 }

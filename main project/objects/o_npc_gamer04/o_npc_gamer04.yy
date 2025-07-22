@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_examplechar",
-    "path":"sprites/spr_examplechar/spr_examplechar.yy",
+    "name":"s_guy04",
+    "path":"sprites/s_guy04/s_guy04.yy",
   },
   "spriteMaskId":null,
   "visible":true,

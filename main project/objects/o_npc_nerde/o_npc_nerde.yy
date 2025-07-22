@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_examplechar",
-    "path":"sprites/spr_examplechar/spr_examplechar.yy",
+    "name":"s_nerde",
+    "path":"sprites/s_nerde/s_nerde.yy",
   },
   "spriteMaskId":null,
   "visible":true,

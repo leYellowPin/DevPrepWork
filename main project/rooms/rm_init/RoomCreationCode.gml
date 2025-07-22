@@ -2,7 +2,7 @@ global.pause = 0;
 global.resolutionX = 640;
 global.resolutionY = 360;
 
-room_count = 4; // change this when adding new rooms
+room_count = 5; // change this when adding new rooms
 
 for (var i=0; i<room_count; i++) {
 	global.player_pos[i] = {
@@ -20,6 +20,26 @@ global.player_pos[rm_city]._y = 257;
 
 global.player_pos[rm_arcade]._x = 672;
 global.player_pos[rm_arcade]._y = 686;
+
+global.previous_room = -1;
+
+
+global.tags = {
+	none: false,
+	pc: true,	
+	mobile: true,	
+	platformer: false,	
+	casual: false,	
+	shooter: false,	
+	easy: false,	
+	medium: false,	
+	hard: false,	
+	pixelart: false,	
+	doodle: true,	
+	retro: false,	
+	fishing: false,	
+	weird: true
+}
 
 
 
@@ -52,7 +72,7 @@ global.tdialog[2] = { // npc nerde talked event
 	function () {
 		if instance_exists(o_npc_nerde) {
 			change_variable(o_npc_nerde, "choice_variable", "talked");
-			create_instance_layer(1616, 1440, "Npcs", o_npc_fisherman);
+			create_instance_layer(1630, 1440, "Npcs", o_npc_fisherman);
 			global.tdialog[2].used = true;
 		}
 	},
@@ -62,18 +82,58 @@ global.tdialog[3] = { // npc nerde talked event
 	scr: 
 	function () {
 		layer_destroy(layer_get_id("Sequence_start"));
+		audio_stop_all();
+		if !audio_is_playing(snd_inside) {
+			audio_play_sound(snd_inside, 1, 1, .7);
+		}
 		global.tdialog[3].used = true;
+	},
+	used: false
+}
+global.tdialog[4] = { // platformer tag
+	scr: 
+	function () {
+		if !global.tags.platformer {
+			global.tags.platformer = scr_display_tag(global.tags.platformer, "Platformer", o_player.x, o_player.y - 48);
+		}
+		change_variable(o_npc_gamer04, "choice_variable", "talked");
+		global.tdialog[4].used = true;
+	},
+	used: false
+}
+global.tdialog[5] = { // platformer tag
+	scr: 
+	function () {
+		if !global.tags.fishing {
+		global.tags.fishing = scr_display_tag(global.tags.fishing, "Fishing", o_player.x, o_player.y - 48);
+		}
+		instance_destroy(o_npc_fisherman)
+		global.tdialog[5].used = true;
+	},
+	used: false
+}
+global.tdialog[6] = { // platformer tag
+	scr: 
+	function () {
+		o_pc.game_scene = rm_tags;
+		global.tdialog[6].used = true;
 	},
 	used: false
 }
 
 
-global.tags = array_create(4); // platform, difficulty, genre, artstyle
+
+//global.tags = array_create(4); // platform, difficulty, genre, artstyle
 
 
 global.next_xpos = "";
 global.next_ypos = "";
 
 global.saved_inst = -1;
+
+// ending
+
+global.comments = array_create(100);
+global.final_score = -1;
 
 room_goto_next();

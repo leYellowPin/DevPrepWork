@@ -1,7 +1,7 @@
 randomise();
 GAMESPEED = game_get_speed(gamespeed_fps);
 
-game_score = 0;
+
 
 border = 400;
 bottom_line = 950;
@@ -20,5 +20,8 @@ move_enemy_down = function()
 		instance_find(o_si_enemy, i).move_down();
 	}
 }
+
+counter_alpha = 1;
+start_anim = 1;
 
 alarm[0] = irandom_range(10*GAMESPEED, 35*GAMESPEED);

@@ -98,6 +98,7 @@ switch(choice_variable){
 		myText[i]		= "I probably get what that genre is now.";
 		mySpeaker[i]	= o_player;
 		myEmotion[i]    = 0;
+		myScripts[i]    = [global.tdialog[4].scr];
 	#endregion
 	break;
 	
@@ -105,7 +106,7 @@ switch(choice_variable){
 	#region
 		var i = 0;
 		//Line 0
-		myText[i]		= "Don't call me a nerd! I am not a nerd!";
+		myText[i]		= "Hi again!";
 		myEmotion[i]	= 0;
 		mySpeaker[i]	= id;
 		myTextCol[i]	= [1,textCol];

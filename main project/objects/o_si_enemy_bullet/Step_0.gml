@@ -1,0 +1,1 @@
+y += bullet_spd;

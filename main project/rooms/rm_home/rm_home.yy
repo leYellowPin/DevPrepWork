@@ -44,7 +44,6 @@
     {"name":"inst_68CF8EB1","path":"rooms/rm_home/rm_home.yy",},
     {"name":"inst_75E088B7","path":"rooms/rm_home/rm_home.yy",},
     {"name":"inst_236790B1","path":"rooms/rm_home/rm_home.yy",},
-    {"name":"inst_6EFC23F9","path":"rooms/rm_home/rm_home.yy",},
     {"name":"inst_25ABB232","path":"rooms/rm_home/rm_home.yy",},
     {"name":"dialog_toilet","path":"rooms/rm_home/rm_home.yy",},
     {"name":"inst_343B34","path":"rooms/rm_home/rm_home.yy",},
@@ -61,6 +60,7 @@
     {"name":"inst_3B2B264D","path":"rooms/rm_home/rm_home.yy",},
     {"name":"inst_58411322","path":"rooms/rm_home/rm_home.yy",},
     {"name":"inst_2424CF7D","path":"rooms/rm_home/rm_home.yy",},
+    {"name":"inst_5A6958E9","path":"rooms/rm_home/rm_home.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -98,11 +98,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_interact_dialog","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"propertyId":{"name":"mspeed","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[[1, .5, 14, .125, 15, .5]]",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_interact_dialog","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"propertyId":{"name":"memotion","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[1, 1]",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.362722,"scaleY":2.03125,"x":32.0,"y":191.0,},
-        {"$GMRInstance":"v2","%Name":"inst_6EFC23F9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6EFC23F9","objectId":{"name":"o_interact_dialog","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_interact_dialog","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"propertyId":{"name":"mtext","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"I still need to look for inspirations before I can start making the game.\"",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_interact_dialog","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"propertyId":{"name":"mtextcol","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[[1, c_white]]",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_interact_dialog","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"propertyId":{"name":"mspeed","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[[1, .5]]",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0627677,"scaleY":0.84375006,"x":223.0,"y":201.0,},
         {"$GMRInstance":"v2","%Name":"inst_25ABB232","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25ABB232","objectId":{"name":"o_interact_dialog","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_interact_dialog","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"propertyId":{"name":"mtext","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"I'm not hungry for now.\"",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_interact_dialog","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"propertyId":{"name":"mtextcol","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[[1, c_white]]",},
@@ -154,6 +149,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_interact_dialog","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"propertyId":{"name":"mtextcol","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[[1, c_white]]",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_interact_dialog","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"propertyId":{"name":"mspeed","path":"objects/o_interact_dialog/o_interact_dialog.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"[[1, .5]]",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.81276774,"scaleY":1.125,"x":163.50854,"y":192.0,},
+        {"$GMRInstance":"v2","%Name":"inst_5A6958E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A6958E9","objectId":{"name":"o_pc","path":"objects/o_pc/o_pc.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":241.0,"y":228.0,},
       ],"layers":[],"name":"Interact_hitbox","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRInstanceLayer":"","%Name":"Solid_hitbox","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_1A8C28EC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A8C28EC","objectId":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":11.0,"scaleY":1.0,"x":0.0,"y":160.0,},

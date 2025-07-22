@@ -10,3 +10,7 @@ if !global.tdialog[3].used{
 } else {
 	script_execute(global.tdialog[3].scr);	
 }
+
+if global.tdialog[6].used {
+	script_execute(global.tdialog[6].scr);	
+}
