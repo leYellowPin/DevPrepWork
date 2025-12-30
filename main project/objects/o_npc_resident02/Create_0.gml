@@ -24,6 +24,7 @@ choice_variable		= -1;	//the variable we change depending on the player's choice
 
 move_frame = 0;
 move_dir = 1;
+action_delay = .5;
 
 idle_func = function() {
 	if y <= o_player.y {
